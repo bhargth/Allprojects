@@ -1,0 +1,58 @@
+body{
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.header{
+    background-color: lightcyan;
+    padding: 1px;
+}
+.header-title{
+    text-align: center;
+    font-size: 40px;
+    color: maroon;
+}
+.header-sub{
+    text-align: right;
+    font-size: 20px;
+}
+.mainelements{
+color: olive;
+font-size: 20px;
+}
+.subheading{
+    color: orangered;
+    text-align: center;
+    font-size: 23px;
+}
+.table{
+    border: 3px solid black; 
+    padding: 5px;
+    border-collapse: collapse;
+    width: 600px;
+    margin-left: auto;
+  margin-right: auto;
+}
+.tableheading{
+    color: peru;
+    font-size: 25px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.tablelist{
+border: solid 2px black;
+border-collapse: collapse;
+text-align: center;
+padding: 10px;
+font-size: 20px;
+}
+.image{
+    text-align: center;
+    display: block;
+}
+.formdetails{
+    text-align: center;
+    display: block; 
+}
+.footer{
+    text-align: center;
+    color: darkorchid;
+}
