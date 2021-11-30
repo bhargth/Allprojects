@@ -1,0 +1,269 @@
+body{
+font-family: Poppins;
+font-style: normal;
+}
+.logo{
+position: absolute;
+width: 185.34px;
+height: 31.97px;
+left: 143.92px;
+top: 22px;
+}
+.headercontainer{
+/*height: 500px; */
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 76px;
+box-sizing: border-box;
+
+}
+.headerimage{
+max-height: 496px;
+max-width: 605px;
+margin-top: 90px;
+
+}
+
+.headertext{
+color: #2F281E;
+font-weight: bold;
+font-size: 50px;
+line-height: 53px;
+padding-bottom: 30px;
+max-width: 518px;
+max-height: 108px;
+
+}
+.headersubtext{
+color:#544837
+font-size: 13px;
+line-height: 28px;
+padding-bottom: 40px;
+max-width: 458px;
+max-height: 95px;
+left: 115px;
+top: 391px;
+}
+
+.twobuttons{
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 12px;
+margin: 4px 2px;
+cursor: pointer;
+}
+.button{
+    background-color: #FF9900;
+    color: #FFFFFF;
+}
+.videobutton{
+
+color: #ff9900;
+  border: none;
+  background-color: white;
+}
+.featurecontainer{
+    width: 100%;
+    height: 450px;
+   /* display:flex;
+    justify-content: center;
+    align-content: center;
+    box-sizing: border-box;  */ 
+}
+.fctext{
+color: #2F281E;
+font-family: Poppins;
+font-size: 36px;
+line-height: 54px;
+text-align: center;
+}
+.cardimages{
+width: 20%
+padding: 5px;
+}
+.card{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px;
+}
+.card-info-image {
+    max-width: 50px;
+    max-height: 50px;
+    padding-bottom: 30px;
+}
+.card-info-header{
+    padding-bottom: 13px;
+  max-width: 165px;
+  max-height: 35px;
+}
+.card-info-text{
+    max-width: 240px;
+  max-height: 50px;
+}
+.signupbutton{
+    width: 175px;
+    height: 53px;
+    
+}
+.subutton{
+margin: 0;
+position: absolute;
+left: 50%;
+background-color: #FF9900;
+color: #FFFFFF;
+border-radius: 4px; 
+}
+.effortless{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-left: 30px;
+}
+.effortless_text_info1 .market_text_subheader {
+margin-bottom: 3px;
+font-size: 16px;
+line-height: 24px;
+color: #544837;
+}
+.effotless_text_info2 .market_text_header{
+font-size: 36px;
+line-height: 54px;
+margin-bottom: 22px;
+color:#544837;
+}
+.effortless_text_info3 .market_text_info{
+font-size: 16px;
+line-height: 26px;
+margin-bottom: 30px;
+color: #544837;
+}
+.effortless_subtext_header .market_text_sub_header{
+font-size: 16px;
+line-height: 26px;
+color: #2F281E;
+margin-bottom: 12px;
+
+}
+.effortless_subtext_text .market_text_sub_info{
+font-size: 16px;
+line-height: 26px;
+margin-bottom: 20px;
+color: #544837;
+}
+.effortless_image {
+max-width: 520px;
+max-height: 574px;
+margin-left: 100px;
+}
+.Productmanager{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+.productmanager_image{
+max-width: 535px;
+max-height: 521px;
+align-self: flex-start;
+}
+.productmanager_text{
+margin-left: 20px;
+}
+
+.productmanager_text_subheader{
+color: #544837;
+font-size: 16px;
+/*line-height: 24px;
+margin-bottom: 5px;*/
+}
+.productmanager_text_header{
+color: #2F281E;
+font-size: 36px;
+line-height: 54px;
+}
+.productmanager_text_info{
+color: #544837;
+font-size: 16px;
+line-height: 26px;
+margin-bottom: 30px;
+}
+.productmanager_text_subimg{
+display: inline-block;
+max-width: 35px;
+max-height: 35px;
+vertical-align: top;
+}
+.productmanager_text_subinfo{
+display: inline-block;
+max-width: 365px;
+max-height: 52px;
+padding-left: 15px;
+}
+.market{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+    margin-left: 30px;
+}
+.market_img{
+max-width: 520px;
+max-height: 574px;
+margin-left: 50px;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 3px;
+}
+.footer_img{
+    max-width: 185px;
+max-height: 35px;
+margin-right: 70px;
+align-self: center;
+}
+.footer_elements{
+    display: flex;
+    list-style: none;
+   color: #544837;
+   margin-right: 50px;
+}
+.footer_quicklinks{
+    list-style: none;
+ line-height: 30px;
+}
+.footer_legallinks{
+    list-style: none;
+    line-height: 30px;
+}
+
+.footer_items{
+    max-width: 325px;
+    max-height: 214px;
+    padding-left: 82px;
+    align-self: flex-end;
+}
+.footer_button{
+margin: 0;
+left: 50%;
+background-color: #FF9900;
+color: #FFFFFF;
+border-radius: 4px; 
+display: block;
+  max-width: 131px;
+  max-height: 42px;
+  padding: 9px 15px 9px 15px;
+}
+.footer_input{
+    display: block;
+  margin-bottom: 23px;
+  max-width: 325px;
+  max-height: 52px;
+  padding: 10px;
+}
+div.footer_elements li a{ color: #544837; text-decoration: none;}
