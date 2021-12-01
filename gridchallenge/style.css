@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: ghostwhite;
+}
+.container {
+  height: 100vh;
+  text-align: center;
+  width: 900px;
+  margin: 120px;
+}
+.container__title {
+  color: gainsboro;
+}
+.container__title__1 {
+  color: black;
+}
+.container__title__text {
+  font-size: 13px;
+  color: gainsboro;
+  margin: 8px;
+}
+.container__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+  height: 700px;
+}
+.container__teambuilder {
+  grid-area: 1 / 2 / 3 / 3;
+  border-top: solid red 7px;
+  background-color: #ececec;
+  height: 170px;
+  align-self: center;
+}
+.container__supervisor {
+  grid-area: 2 / 1 / 4 / 2;
+  border-top: solid lightseagreen 7px;
+  background-color: #ececec;
+  height: 170px;
+}
+.container__caluculator {
+  grid-area: 2 / 3 / 4 / 4;
+  border-top: solid blue 7px;
+  background-color: #ececec;
+  height: 170px;
+}
+.container__karma {
+  grid-area: 3 / 2 / 4 / 3;
+
+  border-top: solid yellow 7px;
+  background-color: #ececec;
+  height: 170px;
+  margin-bottom: 140px;
+}
+.container__card__title {
+  font-weight: bold;
+  color: black;
+}
+.container__card__text {
+  font-size: 10px;
+  color: gainsboro;
+  margin: 8px;
+}
+.container__card__image {
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
