@@ -1,0 +1,78 @@
+body {
+  font-family: "Kumbh Sans";
+  background-color: darkcyan;
+}
+.container__victor {
+  background-image: url("patterntop.svg");
+  background-image: url("patternbottom.svg");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1em;
+}
+.card {
+  border-radius: 0.9em;
+  background-color: white;
+  max-width: 450px;
+  overflow: hidden;
+  text-align: center;
+}
+.card__header-image {
+}
+.card__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.card__victorimage {
+  border-radius: 50%;
+  border: 5px solid white;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+.card__title {
+  font-weight: 700;
+  color: hsl(227, 10%, 46%);
+  font-size: 18px;
+  margin-top: 60px;
+}
+.card__title--number {
+  color: lightgrey;
+  margin-left: 5px;
+}
+.card__title--city {
+  font-size: 15px;
+  margin: 0px;
+  color: lightgrey;
+}
+.card__statistics {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 30px;
+}
+.card__statistics-followers {
+}
+.card__statistics-Likes {
+}
+.card__statistics-Photos {
+}
+.card__statistics--number {
+  color: hsl(227, 10%, 46%);
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.card__statistics--names {
+  color: lightgrey;
+  font-size: 11px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
